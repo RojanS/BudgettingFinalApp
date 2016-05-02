@@ -15,6 +15,7 @@
 		D7ABAFBC1CD7E06B00DBFD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ABAFBA1CD7E06B00DBFD0C /* LaunchScreen.storyboard */; };
 		D7ABAFC71CD7E06B00DBFD0C /* BudgettingFinalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABAFC61CD7E06B00DBFD0C /* BudgettingFinalAppTests.swift */; };
 		D7ABAFD21CD7E06B00DBFD0C /* BudgettingFinalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABAFD11CD7E06B00DBFD0C /* BudgettingFinalAppUITests.swift */; };
+		D7ABAFE01CD7E4FF00DBFD0C /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABAFDF1CD7E4FF00DBFD0C /* HelpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D7ABAFCD1CD7E06B00DBFD0C /* BudgettingFinalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgettingFinalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ABAFD11CD7E06B00DBFD0C /* BudgettingFinalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgettingFinalAppUITests.swift; sourceTree = "<group>"; };
 		D7ABAFD31CD7E06B00DBFD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ABAFDF1CD7E4FF00DBFD0C /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				D7ABAFB11CD7E06B00DBFD0C /* AppDelegate.swift */,
 				D7ABAFB31CD7E06B00DBFD0C /* ViewController.swift */,
+				D7ABAFDF1CD7E4FF00DBFD0C /* HelpViewController.swift */,
 				D7ABAFB51CD7E06B00DBFD0C /* Main.storyboard */,
 				D707B2281CD7E40100C54D28 /* UserInfoViewController.swift */,
 				D7ABAFB81CD7E06B00DBFD0C /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				D7ABAFB41CD7E06B00DBFD0C /* ViewController.swift in Sources */,
 				D707B2291CD7E40100C54D28 /* UserInfoViewController.swift in Sources */,
 				D7ABAFB21CD7E06B00DBFD0C /* AppDelegate.swift in Sources */,
+				D7ABAFE01CD7E4FF00DBFD0C /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
