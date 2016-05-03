@@ -15,5 +15,8 @@ class HelpViewController: UIViewController {
 
     }
     
+    @IBAction func Dismiss(sender: UIBarButtonItem) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
     
    }
