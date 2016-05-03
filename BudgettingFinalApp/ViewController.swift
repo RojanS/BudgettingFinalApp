@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var secondImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstImageView.image = UIImage(named: "dollar sign")
+        secondImageView.image = UIImage(named: "dollar sign")
     }
 
    
