@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Generic Budget Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0R-hj-Ye3">
@@ -36,7 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Help"/>
                                 <connections>
-                                    <segue destination="yBa-YL-aEK" kind="show" id="jOV-ky-Jb1"/>
+                                    <segue destination="yBa-YL-aEK" kind="presentation" id="xpq-Nx-Ola"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,10 +44,11 @@
                         <color key="tintColor" red="0.39281327789999998" green="0.75047348479999998" blue="0.1489658076" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Nb8-hT-bUN"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1131" y="349"/>
+            <point key="canvasLocation" x="1063" y="221"/>
         </scene>
         <!--Help View Controller-->
         <scene sceneID="yNC-Av-lbW">
@@ -58,14 +59,29 @@
                         <viewControllerLayoutGuide type="bottom" id="ygX-rI-svN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pLE-tY-Z4h">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1un-aZ-7XT">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aPm-Wb-rHw">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" id="Bl0-hG-YMu"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vu6-OS-0Al" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1811" y="349"/>
+            <point key="canvasLocation" x="2057" y="273"/>
         </scene>
         <!--User Info View Controller-->
         <scene sceneID="nug-hD-bun">
@@ -76,14 +92,14 @@
                         <viewControllerLayoutGuide type="bottom" id="bMn-GC-7px"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="n09-nL-fBo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mc7-Ue-Z4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="319" y="1005"/>
+            <point key="canvasLocation" x="1063" y="1369"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RxV-OS-P8G">
@@ -101,7 +117,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oTq-sm-ApA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="319" y="349"/>
+            <point key="canvasLocation" x="241" y="61"/>
         </scene>
     </scenes>
 </document>
