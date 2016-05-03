@@ -14,4 +14,11 @@ class OptionsViewController: UIViewController {
         super.viewDidLoad()
 
     }
+    @IBAction func redButton(sender: UIButton) {
+    }
+    
+    @IBAction func blueButton(sender: UIButton) {
+    }
+    @IBAction func purpleButton(sender: UIButton) {
+    }
 }
