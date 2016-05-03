@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -78,14 +79,25 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aPm-Wb-rHw">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPm-Wb-rHw">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
                                 <items>
-                                    <barButtonItem title="Item" id="Bl0-hG-YMu"/>
+                                    <barButtonItem title="Dismiss" id="cO7-11-4Tq">
+                                        <connections>
+                                            <action selector="Dismiss:" destination="yBa-YL-aEK" id="oto-30-k0P"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aPm-Wb-rHw" firstAttribute="leading" secondItem="pLE-tY-Z4h" secondAttribute="leadingMargin" constant="-20" id="FQr-mJ-fog"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aPm-Wb-rHw" secondAttribute="trailing" constant="-20" id="eOL-Pi-xIG"/>
+                            <constraint firstItem="aPm-Wb-rHw" firstAttribute="top" secondItem="pLE-tY-Z4h" secondAttribute="topMargin" id="fpz-Ur-Y82"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
