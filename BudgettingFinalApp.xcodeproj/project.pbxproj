@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D707B2291CD7E40100C54D28 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707B2281CD7E40100C54D28 /* UserInfoViewController.swift */; };
+		D7684A4C1CD93649002CD36D /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7684A4B1CD93649002CD36D /* OptionsViewController.swift */; };
 		D7ABAFB21CD7E06B00DBFD0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABAFB11CD7E06B00DBFD0C /* AppDelegate.swift */; };
 		D7ABAFB41CD7E06B00DBFD0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABAFB31CD7E06B00DBFD0C /* ViewController.swift */; };
 		D7ABAFB71CD7E06B00DBFD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ABAFB51CD7E06B00DBFD0C /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		D707B2281CD7E40100C54D28 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		D7684A4B1CD93649002CD36D /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		D7ABAFAE1CD7E06B00DBFD0C /* BudgettingFinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgettingFinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ABAFB11CD7E06B00DBFD0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7ABAFB31CD7E06B00DBFD0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				D7ABAFB31CD7E06B00DBFD0C /* ViewController.swift */,
 				D7ABAFDF1CD7E4FF00DBFD0C /* HelpViewController.swift */,
 				D707B2281CD7E40100C54D28 /* UserInfoViewController.swift */,
+				D7684A4B1CD93649002CD36D /* OptionsViewController.swift */,
 				D7ABAFB51CD7E06B00DBFD0C /* Main.storyboard */,
 				D7ABAFB81CD7E06B00DBFD0C /* Assets.xcassets */,
 				D7ABAFBA1CD7E06B00DBFD0C /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				D707B2291CD7E40100C54D28 /* UserInfoViewController.swift in Sources */,
 				D7ABAFB21CD7E06B00DBFD0C /* AppDelegate.swift in Sources */,
 				D7ABAFE01CD7E4FF00DBFD0C /* HelpViewController.swift in Sources */,
+				D7684A4C1CD93649002CD36D /* OptionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
