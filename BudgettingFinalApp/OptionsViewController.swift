@@ -14,14 +14,7 @@ class OptionsViewController: UIViewController {
         super.viewDidLoad()
 
     }
-    @IBAction func redButton(sender: UIButton) {
-        view.backgroundColor = UIColor.redColor()
-    }
-    
-    @IBAction func blueButton(sender: UIButton) {
-        view.backgroundColor = UIColor.blueColor()
-    }
-    @IBAction func purpleButton(sender: UIButton) {
-        view.backgroundColor = UIColor.purpleColor()
+
+    @IBAction func changeColorButton(sender: UIButton) {
     }
 }

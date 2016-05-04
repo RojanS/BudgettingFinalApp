@@ -183,6 +183,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="changeColorButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="tOa-tC-8T8"/>
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="yQV-lk-A7E"/>
                                 </connections>
                             </button>
