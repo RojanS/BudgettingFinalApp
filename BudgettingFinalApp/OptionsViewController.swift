@@ -16,5 +16,10 @@ class OptionsViewController: UIViewController {
     }
 
     @IBAction func redButton(sender: UIButton) {
+        func setTintColor (color: UIColor)
+        {
+            UIApplication.sharedApplication().keyWindow?.tintColor = color
+        }
+        setTintColor(UIColor.redColor())
     }
 }
