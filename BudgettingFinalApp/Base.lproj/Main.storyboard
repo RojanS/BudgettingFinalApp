@@ -154,6 +154,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83D-fE-J3R">
                                 <rect key="frame" x="218" y="144" width="46" height="30"/>
                                 <state key="normal" title="Red"/>
+                                <connections>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="HS9-Cs-d0x"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

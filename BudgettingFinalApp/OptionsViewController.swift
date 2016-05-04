@@ -15,4 +15,6 @@ class OptionsViewController: UIViewController {
 
     }
 
+    @IBAction func redButton(sender: UIButton) {
+    }
 }
