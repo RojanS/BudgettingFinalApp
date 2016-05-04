@@ -43,7 +43,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="Options"/>
                                 <connections>
-                                    <segue destination="2W8-EO-vRF" kind="show" id="cgf-oz-W0o"/>
+                                    <segue destination="2W8-EO-vRF" kind="presentation" id="aw5-NQ-1lY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSh-vq-ZiM" customClass="Start">

@@ -10,16 +10,19 @@ import UIKit
 
 class OptionsViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
 
     @IBAction func redButton(sender: UIButton) {
         func setTintColor (color: UIColor)
         {
             UIApplication.sharedApplication().keyWindow?.tintColor = color
+            self.dismissViewControllerAnimated(true, completion: nil)
         }
         setTintColor(UIColor.redColor())
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+
 }
