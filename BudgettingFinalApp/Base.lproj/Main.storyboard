@@ -24,14 +24,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSh-vq-ZiM" customClass="Start">
-                                <rect key="frame" x="256" y="477" width="257" height="70"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="88"/>
-                                <state key="normal" title="START"/>
-                                <connections>
-                                    <segue destination="Q1f-f1-AU2" kind="show" id="0uL-qZ-DI9"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6LW-YF-Jhm">
                                 <rect key="frame" x="655" y="164" width="100" height="100"/>
                             </imageView>
@@ -54,6 +46,14 @@
                                     <segue destination="2W8-EO-vRF" kind="show" id="cgf-oz-W0o"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSh-vq-ZiM" customClass="Start">
+                                <rect key="frame" x="256" y="477" width="257" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="88"/>
+                                <state key="normal" title="START"/>
+                                <connections>
+                                    <segue destination="MbU-bH-j9e" kind="show" id="UG1-bI-rMZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.39281327789999998" green="0.75047348479999998" blue="0.1489658076" alpha="1" colorSpace="calibratedRGB"/>
@@ -69,33 +69,23 @@
             </objects>
             <point key="canvasLocation" x="1063" y="221"/>
         </scene>
-        <!--Table View Controller-->
-        <scene sceneID="ZnU-HZ-WY8">
+        <!--View Controller-->
+        <scene sceneID="ljd-fW-R5L">
             <objects>
-                <tableViewController id="Q1f-f1-AU2" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TgB-Re-G2S">
+                <viewController id="MbU-bH-j9e" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZIf-TE-3Yu"/>
+                        <viewControllerLayoutGuide type="bottom" id="bRp-RL-oxr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M3b-x9-vQ3">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9G8-Ib-mMU">
-                                <rect key="frame" x="0.0" y="92" width="768" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9G8-Ib-mMU" id="iHq-me-Uhy">
-                                    <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Q1f-f1-AU2" id="NTj-bU-elt"/>
-                            <outlet property="delegate" destination="Q1f-f1-AU2" id="HRd-MO-AQ9"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="py1-OI-HMM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wIh-Na-8zw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1009" y="1388"/>
+            <point key="canvasLocation" x="1063" y="1354"/>
         </scene>
         <!--Help View Controller-->
         <scene sceneID="yNC-Av-lbW">
