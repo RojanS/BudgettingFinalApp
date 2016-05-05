@@ -17,7 +17,13 @@ class OptionsViewController: UIViewController {
             UIApplication.sharedApplication().keyWindow?.tintColor = color
             self.dismissViewControllerAnimated(true, completion: nil)
         }
-        setTintColor(UIColor.redColor())
+        switch sender.titleLabel!.text!
+        {
+        case "Red" : setTintColor(UIColor.redColor())
+        case "Blue" : setTintColor(UIColor.blueColor())
+        case "Purple" : setTintColor(UIColor.purpleColor())
+        default : self.dismissViewControllerAnimated(true, completion: nil)
+        }
     }
     
     override func viewDidLoad() {

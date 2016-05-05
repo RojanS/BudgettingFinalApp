@@ -176,10 +176,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNN-ll-WmO">
                                 <rect key="frame" x="335" y="144" width="46" height="30"/>
                                 <state key="normal" title="Blue"/>
+                                <connections>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="HUB-88-gJF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7J-tX-c57">
                                 <rect key="frame" x="457" y="144" width="46" height="30"/>
                                 <state key="normal" title="Purple"/>
+                                <connections>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="68v-TR-Lry"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83D-fE-J3R">
                                 <rect key="frame" x="218" y="144" width="46" height="30"/>
