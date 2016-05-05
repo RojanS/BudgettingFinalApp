@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="1063" y="221"/>
         </scene>
-        <!--View Controller-->
+        <!--User Info View Controller-->
         <scene sceneID="ljd-fW-R5L">
             <objects>
-                <viewController id="MbU-bH-j9e" sceneMemberID="viewController">
+                <viewController id="MbU-bH-j9e" customClass="UserInfoViewController" customModule="BudgettingFinalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZIf-TE-3Yu"/>
                         <viewControllerLayoutGuide type="bottom" id="bRp-RL-oxr"/>
