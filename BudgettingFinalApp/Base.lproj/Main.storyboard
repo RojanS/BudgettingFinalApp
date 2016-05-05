@@ -46,12 +46,12 @@
                                     <segue destination="2W8-EO-vRF" kind="presentation" id="aw5-NQ-1lY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSh-vq-ZiM" customClass="Start">
-                                <rect key="frame" x="256" y="477" width="257" height="70"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="88"/>
-                                <state key="normal" title="START"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHn-1c-bWy">
+                                <rect key="frame" x="308" y="492" width="153" height="71"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="Start"/>
                                 <connections>
-                                    <segue destination="MbU-bH-j9e" kind="show" id="0eb-SG-fAd"/>
+                                    <segue destination="MbU-bH-j9e" kind="show" id="TeK-A9-u1b"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -108,13 +108,14 @@
                             <constraint firstItem="bRp-RL-oxr" firstAttribute="top" secondItem="4Sy-cr-OSO" secondAttribute="bottom" id="lR8-CO-j9f"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="tableView" destination="4Sy-cr-OSO" id="wcf-KE-Ney"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wIh-Na-8zw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1039" y="1425"/>
+            <point key="canvasLocation" x="1038" y="1405"/>
         </scene>
         <!--Help View Controller-->
         <scene sceneID="yNC-Av-lbW">
