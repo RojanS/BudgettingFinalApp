@@ -15,7 +15,6 @@ class OptionsViewController: UIViewController {
         func setTintColor (color: UIColor)
         {
             UIApplication.sharedApplication().keyWindow?.tintColor = color
-            self.dismissViewControllerAnimated(true, completion: nil)
         }
         switch sender.titleLabel!.text!
         {

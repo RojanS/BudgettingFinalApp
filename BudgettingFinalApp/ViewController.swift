@@ -11,6 +11,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var firstImageView: UIImageView!
+    @IBOutlet weak var startButton: UIButton!
 
     @IBOutlet weak var secondImageView: UIImageView!
     
@@ -19,6 +20,14 @@ class ViewController: UIViewController {
         firstImageView.image = UIImage(named: "dollar sign")
         secondImageView.image = UIImage(named: "dollar sign")
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        startButton.tintColor =  UIApplication.sharedApplication().keyWindow?.tintColor
+        helpButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+    }
+    @IBOutlet weak var helpButton: UIButton!
+    
+    
 
    
 

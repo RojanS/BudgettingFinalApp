@@ -18,34 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Piggy Bank" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0R-hj-Ye3">
-                                <rect key="frame" x="130" y="152" width="509" height="123"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6LW-YF-Jhm">
                                 <rect key="frame" x="655" y="164" width="100" height="100"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eie-gE-6nr">
                                 <rect key="frame" x="22" y="164" width="100" height="100"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgg-zj-QEH">
-                                <rect key="frame" x="256" y="566" width="257" height="59"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="Help"/>
-                                <connections>
-                                    <segue destination="yBa-YL-aEK" kind="presentation" id="xpq-Nx-Ola"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6Q-yO-zfl">
-                                <rect key="frame" x="256" y="625" width="257" height="84"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <state key="normal" title="Options"/>
-                                <connections>
-                                    <segue destination="2W8-EO-vRF" kind="presentation" id="aw5-NQ-1lY"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHn-1c-bWy">
                                 <rect key="frame" x="308" y="492" width="153" height="71"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
@@ -54,15 +32,37 @@
                                     <segue destination="MbU-bH-j9e" kind="show" id="TeK-A9-u1b"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Piggy Bank" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgt-Wx-v3D">
+                                <rect key="frame" x="219" y="158" width="330" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="67"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmG-xx-fei">
+                                <rect key="frame" x="308" y="576" width="153" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <state key="normal" title="Help"/>
+                                <connections>
+                                    <segue destination="yBa-YL-aEK" kind="presentation" id="8Wz-Pe-8hm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.39281327789999998" green="0.75047348479999998" blue="0.1489658076" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Nb8-hT-bUN"/>
+                    <navigationItem key="navigationItem" id="Nb8-hT-bUN">
+                        <barButtonItem key="rightBarButtonItem" title="Color" id="AMj-lJ-Bez">
+                            <connections>
+                                <segue destination="2W8-EO-vRF" kind="presentation" id="ZEA-kv-dae"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="firstImageView" destination="Eie-gE-6nr" id="eKx-tb-ick"/>
+                        <outlet property="helpButton" destination="rmG-xx-fei" id="XDA-fB-4JM"/>
                         <outlet property="secondImageView" destination="6LW-YF-Jhm" id="amg-dw-KrO"/>
+                        <outlet property="startButton" destination="VHn-1c-bWy" id="Vdr-pi-Kgu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -174,24 +174,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNN-ll-WmO">
-                                <rect key="frame" x="335" y="144" width="46" height="30"/>
+                                <rect key="frame" x="324" y="119" width="94" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Blue"/>
                                 <connections>
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="HUB-88-gJF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7J-tX-c57">
-                                <rect key="frame" x="457" y="144" width="46" height="30"/>
+                                <rect key="frame" x="440" y="113" width="118" height="68"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Purple"/>
                                 <connections>
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="68v-TR-Lry"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83D-fE-J3R">
-                                <rect key="frame" x="218" y="144" width="46" height="30"/>
+                                <rect key="frame" x="191" y="119" width="97" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Red"/>
                                 <connections>
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="HS9-Cs-d0x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfS-gk-nFQ">
+                                <rect key="frame" x="307" y="223" width="139" height="76"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="AWE-rg-D2V"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -201,7 +212,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ERY-mt-cUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2057" y="1369"/>
+            <point key="canvasLocation" x="2057" y="1367"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RxV-OS-P8G">
