@@ -8,7 +8,9 @@
 
 import UIKit
 
-class UserInfoViewController: UIViewController {
+class UserInfoViewController: UIViewController, UITableViewDelegate {
+    
+    @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
