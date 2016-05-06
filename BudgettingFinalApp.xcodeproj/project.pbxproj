@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D707B2291CD7E40100C54D28 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707B2281CD7E40100C54D28 /* UserInfoViewController.swift */; };
+		D725DB611CDD246900FB4D2F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725DB601CDD246900FB4D2F /* DetailsViewController.swift */; };
+		D725DB631CDD255800FB4D2F /* DefaultDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725DB621CDD255800FB4D2F /* DefaultDetails.swift */; };
 		D7684A4C1CD93649002CD36D /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7684A4B1CD93649002CD36D /* OptionsViewController.swift */; };
 		D7ABAFB21CD7E06B00DBFD0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABAFB11CD7E06B00DBFD0C /* AppDelegate.swift */; };
 		D7ABAFB41CD7E06B00DBFD0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABAFB31CD7E06B00DBFD0C /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		D707B2281CD7E40100C54D28 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		D725DB601CDD246900FB4D2F /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D725DB621CDD255800FB4D2F /* DefaultDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDetails.swift; sourceTree = "<group>"; };
 		D7684A4B1CD93649002CD36D /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		D7ABAFAE1CD7E06B00DBFD0C /* BudgettingFinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgettingFinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ABAFB11CD7E06B00DBFD0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				D707B2281CD7E40100C54D28 /* UserInfoViewController.swift */,
 				D7684A4B1CD93649002CD36D /* OptionsViewController.swift */,
 				D7ABAFB51CD7E06B00DBFD0C /* Main.storyboard */,
+				D725DB621CDD255800FB4D2F /* DefaultDetails.swift */,
+				D725DB601CDD246900FB4D2F /* DetailsViewController.swift */,
 				D7ABAFB81CD7E06B00DBFD0C /* Assets.xcassets */,
 				D7ABAFBA1CD7E06B00DBFD0C /* LaunchScreen.storyboard */,
 				D7ABAFBD1CD7E06B00DBFD0C /* Info.plist */,
@@ -266,10 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7ABAFB41CD7E06B00DBFD0C /* ViewController.swift in Sources */,
+				D725DB631CDD255800FB4D2F /* DefaultDetails.swift in Sources */,
 				D707B2291CD7E40100C54D28 /* UserInfoViewController.swift in Sources */,
 				D7ABAFB21CD7E06B00DBFD0C /* AppDelegate.swift in Sources */,
 				D7ABAFE01CD7E4FF00DBFD0C /* HelpViewController.swift in Sources */,
 				D7684A4C1CD93649002CD36D /* OptionsViewController.swift in Sources */,
+				D725DB611CDD246900FB4D2F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
