@@ -69,6 +69,24 @@
             </objects>
             <point key="canvasLocation" x="1063" y="221"/>
         </scene>
+        <!--Details View Controller-->
+        <scene sceneID="Zmp-h6-0Kv">
+            <objects>
+                <viewController id="9yT-jA-mE5" customClass="DetailsViewController" customModule="BudgettingFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qmP-3A-LoK"/>
+                        <viewControllerLayoutGuide type="bottom" id="rSs-b9-xEM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fIN-1E-Ivb">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Iz-dq-pVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="2625"/>
+        </scene>
         <!--User Info View Controller-->
         <scene sceneID="ljd-fW-R5L">
             <objects>
@@ -92,6 +110,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9yT-jA-mE5" kind="show" id="hYA-Uv-Xb9"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -144,7 +165,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KMC-VQ-9Sd">
                                 <rect key="frame" x="20" y="44" width="748" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">In order to fully understand the app "Piggy Bank", one must have a certain understanding of the app. From the title screen are three different buttons. Start, Color, and the one that you clicked on to get to here, Help. The "Help" button brings you to this helpful page that explains how the app works. Just click on the "Dismiss" button to go back to the title screen. Clicking on the "Color" button at the top of the title screen will bring you to an options page, where you will be able to change the color scheme of the app. Click on the "Done" button, and you're good to go. The "Start" button brings you to the actual budgetting part of the app. Either click on one of the default budgets or create your own to use. Once a budget is selected, just enter in how much many you make per month, and how much money you spend in each category.</mutableString>
+                                <string key="text">In order to fully understand the app "Piggy Bank", one must have a certain understanding of the app. From the title screen are three different buttons. Start, Color, and the one that you clicked on to get to here, Help. The "Help" button brings you to this helpful page that explains how the app works. Just click on the "Dismiss" button to go back to the title screen. Clicking on the "Color" button at the top of the title screen will bring you to an options page, where you will be able to change the color scheme of the app. Click on the "Done" button, and you're good to go. The "Start" button brings you to the actual budgetting part of the app. Either click on one of the default budgets or create your own to use. Once a budget is selected, just enter in how much many you make per month, and how much money you spend in each category.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
