@@ -9,6 +9,7 @@
 import UIKit
 
 class HelpViewController: UIViewController {
+    @IBOutlet weak var dismissButton: UIBarButtonItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,5 +19,10 @@ class HelpViewController: UIViewController {
     @IBAction func Dismiss(sender: UIBarButtonItem) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
+    override func viewWillAppear(animated: Bool) {
+        dismissButton.tintColor =  UIApplication.sharedApplication().keyWindow?.tintColor
+
     
+    }
+
    }

@@ -156,6 +156,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="dismissButton" destination="cO7-11-4Tq" id="KbK-aE-p3l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vu6-OS-0Al" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
