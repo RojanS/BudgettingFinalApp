@@ -9,6 +9,9 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
+    @IBOutlet weak var housingTextField: UITextField!
+    @IBOutlet weak var transportationTextField: UITextField!
+    @IBOutlet weak var taxesTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
