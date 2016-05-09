@@ -35,5 +35,6 @@ class OptionsViewController: UIViewController {
         {
             UIApplication.sharedApplication().keyWindow?.backgroundColor = bColor
         }
+        setBackgroundColor(UIColor.greenColor())
     }
 }
