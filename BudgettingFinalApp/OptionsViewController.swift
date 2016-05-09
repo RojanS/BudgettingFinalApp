@@ -31,5 +31,10 @@ class OptionsViewController: UIViewController {
     }
 
     @IBAction func backroundButton(sender: UIButton) {
+        func setBackgroundColor (bColor: UIColor)
+        {
+            UIApplication.sharedApplication().keyWindow?.backgroundColor = bColor
+        }
+        setBackgroundColor(UIColor.greenColor())
     }
 }
