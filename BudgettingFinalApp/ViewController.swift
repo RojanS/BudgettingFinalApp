@@ -15,6 +15,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var secondImageView: UIImageView!
     
+    @IBOutlet weak var backgroundOne: UIButton!
+    @IBOutlet weak var backgroundTwo: UIButton!
+    @IBOutlet weak var backgroundThree: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         firstImageView.image = UIImage(named: "dollar sign")
@@ -27,6 +30,12 @@ class ViewController: UIViewController {
     }
     @IBOutlet weak var helpButton: UIButton!
     
+    @IBAction func background1(sender: UIButton) {
+    }
+    @IBAction func background2(sender: UIButton) {
+    }
+    @IBAction func background3(sender: UIButton) {
+    }
     
 
    
