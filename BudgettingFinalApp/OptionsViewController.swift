@@ -30,7 +30,4 @@ class OptionsViewController: UIViewController {
         
     }
 
-    @IBAction func backroundButton(sender: UIButton) {
-        view.backgroundColor = UIColor.greenColor()
-    }
 }

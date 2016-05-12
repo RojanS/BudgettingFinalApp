@@ -35,11 +35,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var helpButton: UIButton!
     
     @IBAction func background1(sender: UIButton) {
+        backgroundImage.image = UIImage(named: "Red and White")
     }
     @IBAction func background2(sender: UIButton) {
-        
+        backgroundImage.image = UIImage(named: "Red and Black")
     }
     @IBAction func background3(sender: UIButton) {
+        backgroundImage.image = UIImage(named: "Blue and Dark Blue")
     }
     
 
