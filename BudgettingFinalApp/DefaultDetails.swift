@@ -3,7 +3,7 @@
 //  BudgettingFinalApp
 //
 //  Created by student3 on 5/6/16.
-//  Copyright © 2016 JohnHerseyHighSchool. All rights reserved.
+//  Copyright © 2""16 JohnHerseyHighSchool. All rights reserved.
 //
 
 import Foundation
@@ -16,7 +16,7 @@ class Info
     var Utilities: String
     var Food: String
     var Insurance: String
-    var Debt: String
+    var Savings: String
     var Healthcare: String
     var Entertainment: String
     var Chariety: String
@@ -24,7 +24,7 @@ class Info
     var Education: String
     var Misc: String
     
-    init(Housing h: String, Transportation t: String, Taxes x: String, Utilities u: String, Food f: String, Insurance i: String, Debt d: String, Healthcare hc: String, Entertainment e: String, Chariety c: String, Clothing cl: String, Education ed: String, Misc m: String)
+    init(Housing h: String, Transportation t: String, Taxes x: String, Utilities u: String, Food f: String, Insurance i: String, Savings d: String, Healthcare hc: String, Entertainment e: String, Chariety c: String, Clothing cl: String, Education ed: String, Misc m: String)
     {
         Housing = h
         Transportation = t
@@ -32,7 +32,7 @@ class Info
         Utilities = u
         Food = f
         Insurance = i
-        Debt = d
+        Savings = d
         Healthcare = hc
         Entertainment = e
         Chariety = c
@@ -48,7 +48,7 @@ class Info
         Utilities = ""
         Food = ""
         Insurance = ""
-        Debt = ""
+        Savings = ""
         Healthcare = ""
         Entertainment = ""
         Chariety = ""
