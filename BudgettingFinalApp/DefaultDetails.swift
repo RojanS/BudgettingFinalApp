@@ -12,7 +12,7 @@ class Info
 {
     var Housing: String
     var Transportation: String
-    var Taxes: String
+    
     var Utilities: String
     var Food: String
     var Insurance: String
@@ -24,11 +24,10 @@ class Info
     var Education: String
     var Misc: String
     
-    init(Housing h: String, Transportation t: String, Taxes x: String, Utilities u: String, Food f: String, Insurance i: String, Savings d: String, Healthcare hc: String, Entertainment e: String, Chariety c: String, Clothing cl: String, Education ed: String, Misc m: String)
+    init(Housing h: String, Transportation t: String, Utilities u: String, Food f: String, Insurance i: String, Savings d: String, Healthcare hc: String, Entertainment e: String, Chariety c: String, Clothing cl: String, Education ed: String, Misc m: String)
     {
         Housing = h
         Transportation = t
-        Taxes = x
         Utilities = u
         Food = f
         Insurance = i
@@ -44,7 +43,6 @@ class Info
     {
         Housing = ""
         Transportation = ""
-        Taxes = ""
         Utilities = ""
         Food = ""
         Insurance = ""
