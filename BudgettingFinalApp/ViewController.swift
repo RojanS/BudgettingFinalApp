@@ -10,6 +10,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var firstImageView: UIImageView!
     @IBOutlet weak var startButton: UIButton!
 
