@@ -46,6 +46,27 @@
                                     <segue destination="yBa-YL-aEK" kind="presentation" id="8Wz-Pe-8hm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3w-2e-cay">
+                                <rect key="frame" x="122" y="974" width="96" height="30"/>
+                                <state key="normal" title="Background 2"/>
+                                <connections>
+                                    <action selector="background2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJM-tt-Au6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iV7-Gk-nsh">
+                                <rect key="frame" x="20" y="974" width="93" height="30"/>
+                                <state key="normal" title="Background 1"/>
+                                <connections>
+                                    <action selector="background1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bg0-G6-l6k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAg-Yr-v6o">
+                                <rect key="frame" x="226" y="974" width="96" height="30"/>
+                                <state key="normal" title="Background 3"/>
+                                <connections>
+                                    <action selector="background3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHt-Oj-8DB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.39281327789999998" green="0.75047348479999998" blue="0.1489658076" alpha="1" colorSpace="calibratedRGB"/>
@@ -59,6 +80,9 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
+                        <outlet property="backgroundOne" destination="iV7-Gk-nsh" id="asd-Js-pso"/>
+                        <outlet property="backgroundThree" destination="UAg-Yr-v6o" id="xMc-oc-1Gd"/>
+                        <outlet property="backgroundTwo" destination="e3w-2e-cay" id="JZM-tY-xZQ"/>
                         <outlet property="firstImageView" destination="Eie-gE-6nr" id="eKx-tb-ick"/>
                         <outlet property="helpButton" destination="rmG-xx-fei" id="XDA-fB-4JM"/>
                         <outlet property="secondImageView" destination="6LW-YF-Jhm" id="amg-dw-KrO"/>
@@ -440,13 +464,6 @@
                                 <connections>
                                     <action selector="backroundButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="nf5-AM-e0q"/>
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="AWE-rg-D2V"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcH-Sy-igk">
-                                <rect key="frame" x="348" y="307" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="backroundButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="pwV-VP-voa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7J-tX-c57">
