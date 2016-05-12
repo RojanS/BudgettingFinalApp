@@ -27,12 +27,16 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         startButton.tintColor =  UIApplication.sharedApplication().keyWindow?.tintColor
         helpButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        backgroundOne.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        backgroundTwo.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        backgroundThree.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
     }
     @IBOutlet weak var helpButton: UIButton!
     
     @IBAction func background1(sender: UIButton) {
     }
     @IBAction func background2(sender: UIButton) {
+        
     }
     @IBAction func background3(sender: UIButton) {
     }
