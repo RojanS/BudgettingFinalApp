@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0zS-Qb-ZNm">
+                                <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6LW-YF-Jhm">
                                 <rect key="frame" x="655" y="164" width="100" height="100"/>
                             </imageView>
@@ -80,6 +83,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="0zS-Qb-ZNm" id="aEI-UZ-Rq8"/>
                         <outlet property="backgroundOne" destination="iV7-Gk-nsh" id="asd-Js-pso"/>
                         <outlet property="backgroundThree" destination="UAg-Yr-v6o" id="xMc-oc-1Gd"/>
                         <outlet property="backgroundTwo" destination="e3w-2e-cay" id="JZM-tY-xZQ"/>
