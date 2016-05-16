@@ -70,6 +70,15 @@
                                     <action selector="background3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHt-Oj-8DB"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HIQ-ng-t8x">
+                                <rect key="frame" x="300" y="716" width="169" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5b-wD-22k">
+                                <rect key="frame" x="329" y="673" width="110" height="30"/>
+                                <state key="normal" title="Monthly Income"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.39281327789999998" green="0.75047348479999998" blue="0.1489658076" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,6 +98,7 @@
                         <outlet property="backgroundTwo" destination="e3w-2e-cay" id="JZM-tY-xZQ"/>
                         <outlet property="firstImageView" destination="Eie-gE-6nr" id="eKx-tb-ick"/>
                         <outlet property="helpButton" destination="rmG-xx-fei" id="XDA-fB-4JM"/>
+                        <outlet property="monthlyIncomeButtonn" destination="V5b-wD-22k" id="Ylo-zq-q7N"/>
                         <outlet property="secondImageView" destination="6LW-YF-Jhm" id="amg-dw-KrO"/>
                         <outlet property="startButton" destination="VHn-1c-bWy" id="Vdr-pi-Kgu"/>
                     </connections>
