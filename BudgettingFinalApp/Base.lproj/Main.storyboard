@@ -348,6 +348,7 @@
                         <outlet property="housingTextField" destination="lQu-gY-Mj2" id="nF7-Zj-Wt2"/>
                         <outlet property="insuranceTextField" destination="IWJ-kw-tfL" id="8cP-S0-n7n"/>
                         <outlet property="miscTextField" destination="bEO-jn-OH9" id="nFk-Ee-Osb"/>
+                        <outlet property="savingsTextField" destination="pvs-K4-Vxb" id="73x-3w-CSc"/>
                         <outlet property="transportationTextField" destination="AvY-YU-x6n" id="TcY-fp-vpr"/>
                         <outlet property="utilitiesTextField" destination="kTK-DE-dwt" id="NAR-JB-AS9"/>
                     </connections>

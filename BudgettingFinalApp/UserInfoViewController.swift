@@ -29,7 +29,8 @@ class UserInfoViewController: UIViewController, UITableViewDelegate, UITableView
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let currentCell = tableView.dequeueReusableCellWithIdentifier("myCell")!
-        currentCell.textLabel!.text = "Default User"
+        let currentUser = userArray[indexPath.row]
+        currentCell.textLabel!.text = currentUser.Name
         return currentCell
         
         
