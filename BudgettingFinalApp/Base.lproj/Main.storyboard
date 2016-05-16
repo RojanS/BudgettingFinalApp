@@ -99,6 +99,7 @@
                         <outlet property="firstImageView" destination="Eie-gE-6nr" id="eKx-tb-ick"/>
                         <outlet property="helpButton" destination="rmG-xx-fei" id="XDA-fB-4JM"/>
                         <outlet property="monthlyIncomeButtonn" destination="V5b-wD-22k" id="Ylo-zq-q7N"/>
+                        <outlet property="monthlyIncomeTextField" destination="HIQ-ng-t8x" id="cOp-1M-dw8"/>
                         <outlet property="secondImageView" destination="6LW-YF-Jhm" id="amg-dw-KrO"/>
                         <outlet property="startButton" destination="VHn-1c-bWy" id="Vdr-pi-Kgu"/>
                     </connections>

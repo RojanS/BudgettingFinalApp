@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstImageView: UIImageView!
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var monthlyIncomeButtonn: UIButton!
+    @IBOutlet weak var monthlyIncomeTextField: UITextField!
 
     @IBOutlet weak var secondImageView: UIImageView!
     
@@ -32,6 +33,7 @@ class ViewController: UIViewController {
         backgroundOne.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         backgroundTwo.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         backgroundThree.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        monthlyIncomeButtonn.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
     }
     @IBOutlet weak var helpButton: UIButton!
     
