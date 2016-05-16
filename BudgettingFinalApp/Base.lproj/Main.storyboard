@@ -461,6 +461,14 @@
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="HS9-Cs-d0x"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7J-tX-c57">
+                                <rect key="frame" x="450" y="113" width="118" height="68"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Purple"/>
+                                <connections>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="68v-TR-Lry"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfS-gk-nFQ">
                                 <rect key="frame" x="302" y="223" width="139" height="76"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
@@ -468,14 +476,6 @@
                                 <connections>
                                     <action selector="backroundButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="nf5-AM-e0q"/>
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="AWE-rg-D2V"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7J-tX-c57">
-                                <rect key="frame" x="450" y="113" width="118" height="68"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Purple"/>
-                                <connections>
-                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="68v-TR-Lry"/>
                                 </connections>
                             </button>
                         </subviews>

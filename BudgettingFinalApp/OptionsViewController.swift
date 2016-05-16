@@ -30,4 +30,6 @@ class OptionsViewController: UIViewController {
         
     }
 
+    @IBAction func backroundButton(sender: UIButton) {
+    }
 }
