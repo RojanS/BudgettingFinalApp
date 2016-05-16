@@ -27,7 +27,8 @@ class DetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem
+        
+        self.navigationItem.title = newUser.Name
         housingTextField.text = newUser.Housing
         transportationTextField.text = newUser.Transportation
         utilitiesTextField.text = newUser.Utilities
