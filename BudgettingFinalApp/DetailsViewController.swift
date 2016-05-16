@@ -14,22 +14,30 @@ class DetailsViewController: UIViewController {
 
     @IBOutlet weak var housingTextField: UITextField!
     @IBOutlet weak var transportationTextField: UITextField!
-    @IBOutlet weak var taxesTextField: UITextField!
     @IBOutlet weak var utilitiesTextField: UITextField!
     @IBOutlet weak var foodTextField: UITextField!
     @IBOutlet weak var insuranceTextField: UITextField!
-    @IBOutlet weak var debtTextField: UITextField!
     @IBOutlet weak var HealthCareTextField: UITextField!
     @IBOutlet weak var entertainmentTextField: UITextField!
     @IBOutlet weak var charietyTextField: UITextField!
     @IBOutlet weak var clothingTextField: UITextField!
-    @IBOutlet weak var educationTextField: UITextField!
     @IBOutlet weak var miscTextField: UITextField!
+    @IBOutlet weak var savingsTextField: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         housingTextField.text = newUser.Housing
-        
+        transportationTextField.text = newUser.Transportation
+        utilitiesTextField.text = newUser.Utilities
+        foodTextField.text = newUser.Food
+        insuranceTextField.text = newUser.Insurance
+        HealthCareTextField.text = newUser.Healthcare
+        entertainmentTextField.text = newUser.Entertainment
+        charietyTextField.text = newUser.Chariety
+        clothingTextField.text = newUser.Clothing
+        miscTextField.text = newUser.Misc
+        savingsTextField.text = newUser.Savings
 
     }
     

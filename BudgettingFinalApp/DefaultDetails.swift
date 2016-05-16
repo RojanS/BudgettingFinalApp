@@ -10,9 +10,9 @@ import Foundation
 
 class Info
 {
+    var Name: String
     var Housing: String
     var Transportation: String
-    
     var Utilities: String
     var Food: String
     var Insurance: String
@@ -21,11 +21,11 @@ class Info
     var Entertainment: String
     var Chariety: String
     var Clothing: String
-    var Education: String
     var Misc: String
     
-    init(Housing h: String, Transportation t: String, Utilities u: String, Food f: String, Insurance i: String, Savings d: String, Healthcare hc: String, Entertainment e: String, Chariety c: String, Clothing cl: String, Education ed: String, Misc m: String)
+    init(Name n: String, Housing h: String, Transportation t: String, Utilities u: String, Food f: String, Insurance i: String, Savings d: String, Healthcare hc: String, Entertainment e: String, Chariety c: String, Clothing cl: String, Misc m: String)
     {
+        Name = n
         Housing = h
         Transportation = t
         Utilities = u
@@ -36,11 +36,11 @@ class Info
         Entertainment = e
         Chariety = c
         Clothing = cl
-        Education = ed
         Misc = m
     }
     init()
     {
+        Name = ""
         Housing = ""
         Transportation = ""
         Utilities = ""
@@ -51,7 +51,6 @@ class Info
         Entertainment = ""
         Chariety = ""
         Clothing = ""
-        Education = ""
         Misc = ""
     }
 }
