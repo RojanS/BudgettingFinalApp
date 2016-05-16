@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var firstImageView: UIImageView!
     @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var monthlyIncomeButtonn: UIButton!
 
     @IBOutlet weak var secondImageView: UIImageView!
     
