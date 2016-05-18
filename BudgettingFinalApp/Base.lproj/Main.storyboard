@@ -377,7 +377,11 @@
                                     <rect key="frame" x="0.0" y="136" width="768" height="44"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     <items>
-                                        <barButtonItem systemItem="add" id="Oey-4x-nTc"/>
+                                        <barButtonItem systemItem="add" id="Oey-4x-nTc">
+                                            <connections>
+                                                <action selector="createButton:" destination="MbU-bH-j9e" id="vX3-6O-f23"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </items>
                                 </toolbar>
                                 <prototypes>

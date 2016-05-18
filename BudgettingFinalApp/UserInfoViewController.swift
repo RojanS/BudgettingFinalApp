@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserInfoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class UserInfoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     var userArray: [Info] = [Info]()
@@ -40,6 +40,16 @@ class UserInfoViewController: UIViewController, UITableViewDelegate, UITableView
         let currentRow = tableView.indexPathForSelectedRow?.row
         NVC.newUser = userArray[currentRow!]
     }
+    @IBAction func createButton(sender: UIBarButtonItem) {
+        let alert = UIAlertController(title: "Enter desired values", message: "", preferredStyle: .Alert)
+        alert.addTextFieldWithConfigurationHandler(nil)
+        var housingAlert = alert.textFields?.first
+        presentViewController(alert, animated: true, completion: nil)
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel, handler: nil)
+        alert.addAction(okAction)
+    
+    }
+
 }
 
 
