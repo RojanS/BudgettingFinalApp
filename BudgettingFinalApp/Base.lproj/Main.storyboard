@@ -70,15 +70,15 @@
                                     <action selector="background3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHt-Oj-8DB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5b-wD-22k">
+                                <rect key="frame" x="329" y="672" width="110" height="30"/>
+                                <state key="normal" title="Monthly Income"/>
+                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HIQ-ng-t8x">
                                 <rect key="frame" x="300" y="716" width="169" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5b-wD-22k">
-                                <rect key="frame" x="329" y="673" width="110" height="30"/>
-                                <state key="normal" title="Monthly Income"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.39281327789999998" green="0.75047348479999998" blue="0.1489658076" alpha="1" colorSpace="calibratedRGB"/>
@@ -307,6 +307,12 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ms5-vo-OJ7">
+                                <rect key="frame" x="319" y="369" width="131" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -350,6 +356,7 @@
                         <outlet property="insuranceTextField" destination="IWJ-kw-tfL" id="8cP-S0-n7n"/>
                         <outlet property="miscTextField" destination="bEO-jn-OH9" id="nFk-Ee-Osb"/>
                         <outlet property="savingsTextField" destination="pvs-K4-Vxb" id="73x-3w-CSc"/>
+                        <outlet property="testingLabel" destination="ms5-vo-OJ7" id="Mx3-z2-ukH"/>
                         <outlet property="transportationTextField" destination="AvY-YU-x6n" id="TcY-fp-vpr"/>
                         <outlet property="utilitiesTextField" destination="kTK-DE-dwt" id="NAR-JB-AS9"/>
                     </connections>

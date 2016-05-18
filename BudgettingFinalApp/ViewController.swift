@@ -49,13 +49,12 @@ class ViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
     {
-        if (segue.identifier == "segueTest") {
-            var svc = segue.destinationViewController as! DetailsViewController;
-            
-            svc.toPass = monthlyIncomeTextField.text
-            
+        let SVC = segue.destinationViewController as! DetailsViewController
+        SVC.toPass = monthlyIncomeTextField.text
+        
+
         }
         
     }
-}
+
 

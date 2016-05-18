@@ -24,6 +24,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var clothingTextField: UITextField!
     @IBOutlet weak var miscTextField: UITextField!
     @IBOutlet weak var savingsTextField: UITextField!
+    @IBOutlet weak var testingLabel: UILabel!
     
 
     override func viewDidLoad() {
@@ -41,8 +42,10 @@ class DetailsViewController: UIViewController {
         clothingTextField.text = newUser.Clothing
         miscTextField.text = newUser.Misc
         savingsTextField.text = newUser.Savings
+        testingLabel.text = toPass
 
     }
+    
     
    
 }
