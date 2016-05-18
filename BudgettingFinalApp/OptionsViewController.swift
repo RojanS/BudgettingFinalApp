@@ -24,6 +24,19 @@ class OptionsViewController: UIViewController {
         default : self.dismissViewControllerAnimated(true, completion: nil)
         }
     }
+    @IBAction func changeBackgroundColor(sender: UIButton) {
+        func setBackgroundColor (BColor: UIColor)
+        {
+            UIApplication.sharedApplication().keyWindow?.backgroundColor = BColor
+        }
+        switch sender.titleLabel!.text!
+        {
+        case "Red" : setBackgroundColor(UIColor.redColor())
+        case "Blue" : setBackgroundColor(UIColor.blueColor())
+        case "Orange" : setBackgroundColor(UIColor.orangeColor())
+        default : self.dismissViewControllerAnimated(true, completion: nil)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

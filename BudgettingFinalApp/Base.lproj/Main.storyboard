@@ -18,9 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0zS-Qb-ZNm">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oq1-7n-ha4">
                                 <rect key="frame" x="0.0" y="64" width="768" height="960"/>
-                            </imageView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6LW-YF-Jhm">
                                 <rect key="frame" x="655" y="164" width="100" height="100"/>
                             </imageView>
@@ -49,27 +50,6 @@
                                     <segue destination="yBa-YL-aEK" kind="presentation" id="8Wz-Pe-8hm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3w-2e-cay">
-                                <rect key="frame" x="122" y="974" width="96" height="30"/>
-                                <state key="normal" title="Background 2"/>
-                                <connections>
-                                    <action selector="background2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJM-tt-Au6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iV7-Gk-nsh">
-                                <rect key="frame" x="20" y="974" width="93" height="30"/>
-                                <state key="normal" title="Background 1"/>
-                                <connections>
-                                    <action selector="background1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bg0-G6-l6k"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAg-Yr-v6o">
-                                <rect key="frame" x="226" y="974" width="96" height="30"/>
-                                <state key="normal" title="Background 3"/>
-                                <connections>
-                                    <action selector="background3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHt-Oj-8DB"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5b-wD-22k">
                                 <rect key="frame" x="329" y="672" width="110" height="30"/>
                                 <state key="normal" title="Monthly Income"/>
@@ -92,10 +72,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <outlet property="backgroundImage" destination="0zS-Qb-ZNm" id="aEI-UZ-Rq8"/>
-                        <outlet property="backgroundOne" destination="iV7-Gk-nsh" id="asd-Js-pso"/>
-                        <outlet property="backgroundThree" destination="UAg-Yr-v6o" id="xMc-oc-1Gd"/>
-                        <outlet property="backgroundTwo" destination="e3w-2e-cay" id="JZM-tY-xZQ"/>
+                        <outlet property="backgroundView" destination="Oq1-7n-ha4" id="tvR-9D-7GU"/>
                         <outlet property="firstImageView" destination="Eie-gE-6nr" id="eKx-tb-ick"/>
                         <outlet property="helpButton" destination="rmG-xx-fei" id="XDA-fB-4JM"/>
                         <outlet property="monthlyIncomeButtonn" destination="V5b-wD-22k" id="Ylo-zq-q7N"/>
@@ -495,6 +472,14 @@
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="HUB-88-gJF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dK3-ju-nnn">
+                                <rect key="frame" x="336" y="367" width="97" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Blue"/>
+                                <connections>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="wJM-cb-7J7"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83D-fE-J3R">
                                 <rect key="frame" x="191" y="123" width="97" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
@@ -518,6 +503,31 @@
                                 <connections>
                                     <action selector="backroundButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="nf5-AM-e0q"/>
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="AWE-rg-D2V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2b3-Hw-JYx">
+                                <rect key="frame" x="191" y="373" width="97" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Red"/>
+                                <connections>
+                                    <action selector="changeBackgroundColor:" destination="2W8-EO-vRF" eventType="touchUpInside" id="J7p-A0-CFK"/>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="YXq-aP-Oi5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEP-QB-ddw">
+                                <rect key="frame" x="472" y="367" width="131" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Orange"/>
+                                <connections>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="72L-2y-ulO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnH-Fn-cHd">
+                                <rect key="frame" x="334" y="453" width="101" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="ate-bR-kzb"/>
                                 </connections>
                             </button>
                         </subviews>
