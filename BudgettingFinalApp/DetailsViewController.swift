@@ -11,7 +11,6 @@ import UIKit
 class DetailsViewController: UIViewController {
     
     var newUser = Info()
-    var toPass:String!
 
     @IBOutlet weak var housingTextField: UITextField!
     @IBOutlet weak var transportationTextField: UITextField!
@@ -42,7 +41,6 @@ class DetailsViewController: UIViewController {
         clothingTextField.text = newUser.Clothing
         miscTextField.text = newUser.Misc
         savingsTextField.text = newUser.Savings
-        testingLabel.text = toPass
 
     }
     
