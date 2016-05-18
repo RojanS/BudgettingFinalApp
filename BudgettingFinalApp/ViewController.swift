@@ -47,13 +47,7 @@ class ViewController: UIViewController {
         backgroundImage.image = UIImage(named: "Blue and Dark Blue")
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
-    {
-        let SVC = segue.destinationViewController as! DetailsViewController
-        SVC.toPass = monthlyIncomeTextField.text
-        
 
-        }
         
     }
 
