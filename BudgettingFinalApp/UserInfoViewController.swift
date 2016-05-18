@@ -42,8 +42,41 @@ class UserInfoViewController: UIViewController, UITableViewDelegate, UITableView
     }
     @IBAction func createButton(sender: UIBarButtonItem) {
         let alert = UIAlertController(title: "Enter desired values", message: "", preferredStyle: .Alert)
-        alert.addTextFieldWithConfigurationHandler(nil)
-        var housingAlert = alert.textFields?.first
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Housing %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Transportation %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Utilities %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Food %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Insurance %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Savings %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "HealthCare %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Entertainment %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Chairety %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Clothing %"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "Misc %"
+            })
+        
+        
         presentViewController(alert, animated: true, completion: nil)
         let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel, handler: nil)
         alert.addAction(okAction)
