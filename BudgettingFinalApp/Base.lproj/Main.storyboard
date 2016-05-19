@@ -188,11 +188,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pvs-K4-Vxb">
-                                <rect key="frame" x="285" y="223" width="50" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CIA-zg-ZdO">
                                 <rect key="frame" x="657" y="175" width="50" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -284,12 +279,11 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ms5-vo-OJ7">
-                                <rect key="frame" x="319" y="369" width="131" height="65"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pvs-K4-Vxb">
+                                <rect key="frame" x="285" y="223" width="50" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -333,7 +327,6 @@
                         <outlet property="insuranceTextField" destination="IWJ-kw-tfL" id="8cP-S0-n7n"/>
                         <outlet property="miscTextField" destination="bEO-jn-OH9" id="nFk-Ee-Osb"/>
                         <outlet property="savingsTextField" destination="pvs-K4-Vxb" id="73x-3w-CSc"/>
-                        <outlet property="testingLabel" destination="ms5-vo-OJ7" id="Mx3-z2-ukH"/>
                         <outlet property="transportationTextField" destination="AvY-YU-x6n" id="TcY-fp-vpr"/>
                         <outlet property="utilitiesTextField" destination="kTK-DE-dwt" id="NAR-JB-AS9"/>
                     </connections>
