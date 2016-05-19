@@ -20,6 +20,29 @@
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oq1-7n-ha4">
                                 <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPL-cW-qot">
+                                        <rect key="frame" x="6" y="930" width="35" height="30"/>
+                                        <state key="normal" title="Cyan"/>
+                                        <connections>
+                                            <action selector="changeBackgroundColor1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4DR-xV-wBk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQE-fM-hm6">
+                                        <rect key="frame" x="167" y="930" width="51" height="30"/>
+                                        <state key="normal" title="Orange"/>
+                                        <connections>
+                                            <action selector="changeBackgroundColor3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ntc-rc-Cqe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlJ-LZ-wds">
+                                        <rect key="frame" x="80" y="930" width="60" height="30"/>
+                                        <state key="normal" title="Magenta"/>
+                                        <connections>
+                                            <action selector="changeBackgroundColor2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WRu-gc-2ht"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6LW-YF-Jhm">
@@ -74,9 +97,12 @@
                     <connections>
                         <outlet property="backgroundView" destination="Oq1-7n-ha4" id="tvR-9D-7GU"/>
                         <outlet property="firstImageView" destination="Eie-gE-6nr" id="eKx-tb-ick"/>
-                        <outlet property="helpButton" destination="rmG-xx-fei" id="XDA-fB-4JM"/>
+                        <outlet property="helpButton" destination="rmG-xx-fei" id="9PB-tA-BqN"/>
                         <outlet property="monthlyIncomeButtonn" destination="V5b-wD-22k" id="Ylo-zq-q7N"/>
                         <outlet property="monthlyIncomeTextField" destination="HIQ-ng-t8x" id="cOp-1M-dw8"/>
+                        <outlet property="newBlueBackgroundButton" destination="zlJ-LZ-wds" id="j6F-lb-8bX"/>
+                        <outlet property="orangeBackgroundButton" destination="sQE-fM-hm6" id="Uz3-yJ-SEl"/>
+                        <outlet property="redBackgroundButton" destination="tPL-cW-qot" id="Ujm-Jg-oEs"/>
                         <outlet property="secondImageView" destination="6LW-YF-Jhm" id="amg-dw-KrO"/>
                         <outlet property="startButton" destination="VHn-1c-bWy" id="Vdr-pi-Kgu"/>
                     </connections>
@@ -457,20 +483,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ByW-y6-ZGK">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNN-ll-WmO">
                                 <rect key="frame" x="324" y="119" width="94" height="55"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Blue"/>
                                 <connections>
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="HUB-88-gJF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dK3-ju-nnn">
-                                <rect key="frame" x="336" y="367" width="97" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Blue"/>
-                                <connections>
-                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="wJM-cb-7J7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83D-fE-J3R">
@@ -498,35 +520,13 @@
                                     <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="AWE-rg-D2V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2b3-Hw-JYx">
-                                <rect key="frame" x="191" y="373" width="97" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Red"/>
-                                <connections>
-                                    <action selector="changeBackgroundColor:" destination="2W8-EO-vRF" eventType="touchUpInside" id="J7p-A0-CFK"/>
-                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="YXq-aP-Oi5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEP-QB-ddw">
-                                <rect key="frame" x="472" y="367" width="131" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Orange"/>
-                                <connections>
-                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="72L-2y-ulO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnH-Fn-cHd">
-                                <rect key="frame" x="334" y="453" width="101" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Close"/>
-                                <connections>
-                                    <action selector="redButton:" destination="2W8-EO-vRF" eventType="touchUpInside" id="ate-bR-kzb"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="optionsView" destination="ByW-y6-ZGK" id="1fK-uk-d6H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ERY-mt-cUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

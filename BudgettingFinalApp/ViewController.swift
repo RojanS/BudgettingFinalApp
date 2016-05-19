@@ -10,6 +10,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var helpButton: UIButton!
+    @IBOutlet weak var orangeBackgroundButton: UIButton!
+    @IBOutlet weak var newBlueBackgroundButton: UIButton!
+    @IBOutlet weak var redBackgroundButton: UIButton!
     @IBOutlet weak var backgroundView: UIView!
     @IBOutlet weak var firstImageView: UIImageView!
     @IBOutlet weak var startButton: UIButton!
@@ -26,8 +30,20 @@ class ViewController: UIViewController {
         startButton.tintColor =  UIApplication.sharedApplication().keyWindow?.tintColor
         helpButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         monthlyIncomeButtonn.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        orangeBackgroundButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        newBlueBackgroundButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        redBackgroundButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
     }
-    @IBOutlet weak var helpButton: UIButton!
+    @IBAction func changeBackgroundColor1(sender: UIButton) {
+        backgroundView.backgroundColor = UIColor.cyanColor()
+    }
+    @IBAction func changeBackgroundColor2(sender: UIButton) {
+        backgroundView.backgroundColor = UIColor.magentaColor()
+    }
+    @IBAction func changeBackgroundColor3(sender: UIButton) {
+        backgroundView.backgroundColor = UIColor.orangeColor()
+    }
+
     
 
 }

@@ -11,6 +11,7 @@ import UIKit
 class OptionsViewController: UIViewController {
 
 
+    @IBOutlet weak var optionsView: UIView!
     @IBAction func redButton(sender: UIButton) {
         func setTintColor (color: UIColor)
         {
@@ -24,18 +25,13 @@ class OptionsViewController: UIViewController {
         default : self.dismissViewControllerAnimated(true, completion: nil)
         }
     }
-    @IBAction func changeBackgroundColor(sender: UIButton) {
-        func setBackgroundColor (BColor: UIColor)
-        {
-            UIApplication.sharedApplication().keyWindow?.backgroundColor = BColor
-        }
-        switch sender.titleLabel!.text!
-        {
-        case "Red" : setBackgroundColor(UIColor.redColor())
-        case "Blue" : setBackgroundColor(UIColor.blueColor())
-        case "Orange" : setBackgroundColor(UIColor.orangeColor())
-        default : self.dismissViewControllerAnimated(true, completion: nil)
-        }
+    
+    @IBAction func changeRedBackground(sender: UIButton) {
+        
+    }
+    @IBAction func changeBlueBackground(sender: UIButton) {
+    }
+    @IBAction func changePinkBackground(sender: UIButton) {
     }
     
     override func viewDidLoad() {
