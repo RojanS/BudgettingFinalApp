@@ -15,9 +15,9 @@ class UserInfoViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let user0 = Info(Name: "Default User 1", Housing: "24", Transportation: "14", Utilities: "8", Food: "14", Insurance: "5", Savings: "4", Healthcare: "6", Entertainment: "5", Chariety: "4", Clothing: "4", Misc: "12")
+        let user0 = Info(Name: "Default User 1", Housing: "904.56", Transportation: "527.66", Utilities: "302.52", Food: "527.66", Insurance: "188.45", Savings: "150.76", Healthcare: "226.14", Entertainment: "188.45", Chariety: "150.76", Clothing: "150.76", Misc: "452.28")
         userArray.append(user0)
-        let user1 = Info(Name: "Default User 2", Housing: "28", Transportation: "10", Utilities: "6", Food: "12", Insurance: "6", Savings: "5", Healthcare: "10", Entertainment: "8", Chariety: "4", Clothing: "5", Misc: "6")
+        let user1 = Info(Name: "Default User 2", Housing: "1055.32", Transportation: "376.90", Utilities: "226.14", Food: "452.28", Insurance: "226.14", Savings: "188.45", Healthcare: "376.90", Entertainment: "301.52", Chariety: "150.76", Clothing: "188.45", Misc: "226.14")
         userArray.append(user1)
         
         

@@ -41,7 +41,7 @@ class DetailsViewController: UIViewController {
         clothingTextField.text = newUser.Clothing
         miscTextField.text = newUser.Misc
         savingsTextField.text = newUser.Savings
-
+                
     }
     
     
