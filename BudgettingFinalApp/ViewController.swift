@@ -1,4 +1,4 @@
-//  Patryk Ferus
+// Patryk Ferus
 // Ronan Collins
 //  ViewController.swift
 //  BudgettingFinalApp
