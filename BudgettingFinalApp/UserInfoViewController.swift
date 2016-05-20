@@ -43,6 +43,9 @@ class UserInfoViewController: UIViewController, UITableViewDelegate, UITableView
     @IBAction func createButton(sender: UIBarButtonItem) {
         let alert = UIAlertController(title: "Enter desired values", message: "", preferredStyle: .Alert)
         alert.addTextFieldWithConfigurationHandler({textField in
+            textField.placeholder = "User Name"
+            })
+        alert.addTextFieldWithConfigurationHandler({textField in
             textField.placeholder = "Housing %"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
@@ -77,13 +80,38 @@ class UserInfoViewController: UIViewController, UITableViewDelegate, UITableView
             })
         
         
-        presentViewController(alert, animated: true, completion: nil)
-        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel, handler: nil)
+        
+        let okAction = UIAlertAction(title: "CANCEL", style: UIAlertActionStyle.Destructive, handler: nil)
+        let saveAction = UIAlertAction(title: "SAVE", style: .Cancel, handler: {action in
+            var textfields = alert.textFields! as [UITextField]
+        
+            let createdUser = Info(Name: textfields[0].text!, Housing: textfields[1].text!, Transportation: textfields[2].text!, Utilities: textfields[3].text!, Food: textfields[4].text!, Insurance: textfields[5].text!, Savings: textfields[6].text!, Healthcare: textfields[7].text!, Entertainment: textfields[8].text!, Chariety: textfields[9].text!, Clothing: textfields[10].text!, Misc: textfields[11].text!)
+                self.userArray.append(createdUser)
+                self.tableView.reloadData()
+            })
         alert.addAction(okAction)
+        alert.addAction(saveAction)
+        presentViewController(alert, animated: true, completion: nil)
+    
+        
     
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
