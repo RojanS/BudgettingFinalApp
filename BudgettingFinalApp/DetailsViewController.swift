@@ -12,6 +12,18 @@ class DetailsViewController: UIViewController {
     
     var newUser = Info()
 
+    @IBOutlet weak var miscButton: UIButton!
+    @IBOutlet weak var entertainmentButton: UIButton!
+    @IBOutlet weak var healthcareButton: UIButton!
+    @IBOutlet weak var foodButton: UIButton!
+    @IBOutlet weak var UtilitiesButton: UIButton!
+    @IBOutlet weak var clothingButton: UIButton!
+    @IBOutlet weak var charietyButton: UIButton!
+    @IBOutlet weak var savingsButton: UIButton!
+    @IBOutlet weak var insuranceButton: UIButton!
+    @IBOutlet weak var transportationButton: UIButton!
+    @IBOutlet weak var housingButton: UIButton!
+    
     @IBOutlet weak var housingTextField: UITextField!
     @IBOutlet weak var transportationTextField: UITextField!
     @IBOutlet weak var utilitiesTextField: UITextField!
@@ -41,7 +53,7 @@ class DetailsViewController: UIViewController {
         clothingTextField.text = newUser.Clothing
         miscTextField.text = newUser.Misc
         savingsTextField.text = newUser.Savings
-                
+        
     }
     
     
