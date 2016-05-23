@@ -671,6 +671,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="dismissButton" destination="cO7-11-4Tq" id="KbK-aE-p3l"/>
+                        <outlet property="myTextView" destination="KMC-VQ-9Sd" id="nl0-Vi-Yje"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vu6-OS-0Al" userLabel="First Responder" sceneMemberID="firstResponder"/>
