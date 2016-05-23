@@ -53,6 +53,17 @@ class DetailsViewController: UIViewController {
         clothingTextField.text = newUser.Clothing
         miscTextField.text = newUser.Misc
         savingsTextField.text = newUser.Savings
+        miscButton.tintColor =  UIApplication.sharedApplication().keyWindow?.tintColor
+        entertainmentButton.tintColor =  UIApplication.sharedApplication().keyWindow?.tintColor
+        healthcareButton.tintColor =  UIApplication.sharedApplication().keyWindow?.tintColor
+        foodButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        UtilitiesButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        clothingButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        charietyButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        savingsButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        insuranceButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        transportationButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        housingButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         
     }
     
