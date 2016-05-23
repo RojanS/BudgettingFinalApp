@@ -11,6 +11,7 @@ import UIKit
 class HelpViewController: UIViewController {
     @IBOutlet weak var dismissButton: UIBarButtonItem!
 
+    @IBOutlet weak var myTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

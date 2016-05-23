@@ -46,37 +46,37 @@ class UserInfoViewController: UIViewController, UITableViewDelegate, UITableView
             textField.placeholder = "User Name"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Housing %"
+            textField.placeholder = "$ Housing"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Transportation %"
+            textField.placeholder = "$ Transportation"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Utilities %"
+            textField.placeholder = "$ Utilities"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Food %"
+            textField.placeholder = "$ Food"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Insurance %"
+            textField.placeholder = "$ Insurance"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Savings %"
+            textField.placeholder = "$ Savings"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "HealthCare %"
+            textField.placeholder = "$ HealthCare"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Entertainment %"
+            textField.placeholder = "$ Entertainment"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Chairety %"
+            textField.placeholder = "$ Chairety"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Clothing %"
+            textField.placeholder = "$ Clothing"
             })
         alert.addTextFieldWithConfigurationHandler({textField in
-            textField.placeholder = "Misc %"
+            textField.placeholder = "$ Misc"
             })
         
         
