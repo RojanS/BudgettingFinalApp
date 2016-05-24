@@ -17,8 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var backgroundView: UIView!
     @IBOutlet weak var firstImageView: UIImageView!
     @IBOutlet weak var startButton: UIButton!
-    @IBOutlet weak var monthlyIncomeButtonn: UIButton!
-    @IBOutlet weak var monthlyIncomeTextField: UITextField!
     @IBOutlet weak var secondImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +27,6 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         startButton.tintColor =  UIApplication.sharedApplication().keyWindow?.tintColor
         helpButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
-        monthlyIncomeButtonn.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         orangeBackgroundButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         newBlueBackgroundButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         redBackgroundButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
