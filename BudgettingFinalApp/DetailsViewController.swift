@@ -35,7 +35,6 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var clothingTextField: UITextField!
     @IBOutlet weak var miscTextField: UITextField!
     @IBOutlet weak var savingsTextField: UITextField!
-    @IBOutlet weak var testingLabel: UILabel!
     
 
     override func viewDidLoad() {
