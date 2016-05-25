@@ -388,47 +388,92 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEU-G6-hls">
                                 <rect key="frame" x="496" y="81" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="housingAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="0dd-x4-eJz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWo-Od-f69">
                                 <rect key="frame" x="496" y="128" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="transportationAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="swc-co-kWH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zn9-OH-djR">
                                 <rect key="frame" x="496" y="176" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="insuranceAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="wS3-Sl-bQ3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atx-Fe-f9U">
                                 <rect key="frame" x="496" y="223" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="savingsAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="LwT-VO-bfO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiO-Fk-0OS">
                                 <rect key="frame" x="496" y="268" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="charietyAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="uWX-IL-7Om"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbb-uD-m1b">
                                 <rect key="frame" x="496" y="315" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="clothingAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="hah-if-HWm"/>
+                                    <action selector="utilitiesAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="dLG-ve-q2k"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhs-W5-duN">
                                 <rect key="frame" x="496" y="358" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="utilitiesAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="4F7-qp-XZ4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3P-O1-qnP">
                                 <rect key="frame" x="496" y="405" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="foodAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="ScH-mJ-ZbR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="us5-2p-SZT">
                                 <rect key="frame" x="496" y="452" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="healthcareAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="YIw-ko-dX7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhf-Bx-vsj">
                                 <rect key="frame" x="496" y="499" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="entertainmentAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="sCA-jv-iA7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnY-JQ-Zg8">
                                 <rect key="frame" x="496" y="544" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="miscAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="VdH-Mh-dId"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -478,25 +523,38 @@
                     <connections>
                         <outlet property="HealthCareTextField" destination="CIA-zg-ZdO" id="TbZ-lo-2rv"/>
                         <outlet property="UtilitiesButton" destination="Yhs-W5-duN" id="SSf-9T-FaP"/>
+                        <outlet property="charietyAmount" destination="J5b-9Q-3Mb" id="wzK-Yj-1VM"/>
                         <outlet property="charietyButton" destination="eiO-Fk-0OS" id="CJl-T7-oDT"/>
                         <outlet property="charietyTextField" destination="QF5-qO-ll0" id="lGY-XI-gjx"/>
+                        <outlet property="clothingAmount" destination="BEk-gR-2Ql" id="abE-Nh-Lxi"/>
                         <outlet property="clothingButton" destination="Zbb-uD-m1b" id="Jaw-ZN-HTT"/>
                         <outlet property="clothingTextField" destination="W4z-yM-qHy" id="k5l-V0-uNz"/>
+                        <outlet property="entertainmentAmount" destination="n1j-je-Rqc" id="bUv-4s-3bq"/>
                         <outlet property="entertainmentButton" destination="qhf-Bx-vsj" id="eMx-lg-PSZ"/>
                         <outlet property="entertainmentTextField" destination="mNp-AC-Jey" id="2bs-GC-sOz"/>
+                        <outlet property="foodAmount" destination="EPr-p7-AhC" id="22I-fJ-XhW"/>
                         <outlet property="foodButton" destination="S3P-O1-qnP" id="Lju-Nj-Zhm"/>
                         <outlet property="foodTextField" destination="6Iv-go-wfG" id="RvI-CA-ZaS"/>
+                        <outlet property="healthcareAdd" destination="us5-2p-SZT" id="XR9-3I-lwA"/>
+                        <outlet property="healthcareAmount" destination="A6g-ZO-A38" id="PYH-0A-IdA"/>
                         <outlet property="healthcareButton" destination="us5-2p-SZT" id="clN-om-0cV"/>
+                        <outlet property="housingAmount" destination="0Co-iY-TDV" id="GmJ-iO-M63"/>
                         <outlet property="housingButton" destination="sEU-G6-hls" id="c2c-Lt-Hk9"/>
                         <outlet property="housingTextField" destination="lQu-gY-Mj2" id="nF7-Zj-Wt2"/>
+                        <outlet property="insuranceAdd" destination="Zn9-OH-djR" id="K1V-eE-K2S"/>
+                        <outlet property="insuranceAmount" destination="MFi-eo-fYJ" id="K4p-QA-Ygc"/>
                         <outlet property="insuranceButton" destination="Zn9-OH-djR" id="D6C-bV-bz2"/>
                         <outlet property="insuranceTextField" destination="IWJ-kw-tfL" id="8cP-S0-n7n"/>
+                        <outlet property="miscAmount" destination="7vN-YA-Mk7" id="vY0-HR-h2E"/>
                         <outlet property="miscButton" destination="mnY-JQ-Zg8" id="qrL-4g-L3g"/>
                         <outlet property="miscTextField" destination="bEO-jn-OH9" id="nFk-Ee-Osb"/>
+                        <outlet property="savingsAmount" destination="tcJ-Po-HPz" id="7qR-g1-iuW"/>
                         <outlet property="savingsButton" destination="atx-Fe-f9U" id="KpH-ch-Xj5"/>
                         <outlet property="savingsTextField" destination="pvs-K4-Vxb" id="73x-3w-CSc"/>
+                        <outlet property="transportationAmount" destination="zdf-JV-rMT" id="x5u-j1-rpm"/>
                         <outlet property="transportationButton" destination="XWo-Od-f69" id="4Hd-np-Ivc"/>
                         <outlet property="transportationTextField" destination="AvY-YU-x6n" id="TcY-fp-vpr"/>
+                        <outlet property="utilitiesAmount" destination="XdR-qC-PLh" id="xnk-ef-hvq"/>
                         <outlet property="utilitiesTextField" destination="kTK-DE-dwt" id="NAR-JB-AS9"/>
                     </connections>
                 </viewController>
