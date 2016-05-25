@@ -1130,14 +1130,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ByW-y6-ZGK">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="768" id="Hb4-Hv-bNo"/>
-                                    <constraint firstAttribute="height" constant="1024" id="s8r-bw-H7b"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNN-ll-WmO">
                                 <rect key="frame" x="324" y="119" width="94" height="55"/>
                                 <constraints>
@@ -1191,20 +1183,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oKd-S8-cms" firstAttribute="top" secondItem="ZfS-gk-nFQ" secondAttribute="bottom" constant="725" id="3Yw-X3-kfQ"/>
-                            <constraint firstItem="oKd-S8-cms" firstAttribute="top" secondItem="ByW-y6-ZGK" secondAttribute="bottom" id="4YZ-DO-TLx"/>
                             <constraint firstItem="oKd-S8-cms" firstAttribute="top" secondItem="83D-fE-J3R" secondAttribute="bottom" constant="853" id="7ve-sn-FZR"/>
                             <constraint firstItem="y7J-tX-c57" firstAttribute="leading" secondItem="tNN-ll-WmO" secondAttribute="trailing" constant="32" id="DAi-Ql-oEU"/>
-                            <constraint firstItem="ByW-y6-ZGK" firstAttribute="top" secondItem="8ij-ft-8cy" secondAttribute="topMargin" id="Ewe-4x-up1"/>
                             <constraint firstItem="83D-fE-J3R" firstAttribute="leading" secondItem="8ij-ft-8cy" secondAttribute="leadingMargin" constant="171" id="PeA-w6-Nen"/>
                             <constraint firstItem="tNN-ll-WmO" firstAttribute="leading" secondItem="83D-fE-J3R" secondAttribute="trailing" constant="36" id="QG8-Dx-jqz"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ByW-y6-ZGK" secondAttribute="trailing" constant="-20" id="Zb7-Ox-rWu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZfS-gk-nFQ" secondAttribute="trailing" constant="307" id="Zp4-Rc-Put"/>
                             <constraint firstItem="tNN-ll-WmO" firstAttribute="top" secondItem="2lG-eE-8MA" secondAttribute="bottom" constant="99" id="aZg-3K-Hpm"/>
                             <constraint firstItem="y7J-tX-c57" firstAttribute="top" secondItem="2lG-eE-8MA" secondAttribute="bottom" constant="93" id="blG-1C-fGA"/>
                             <constraint firstItem="ZfS-gk-nFQ" firstAttribute="leading" secondItem="8ij-ft-8cy" secondAttribute="leadingMargin" constant="282" id="c34-a2-PmE"/>
                             <constraint firstItem="83D-fE-J3R" firstAttribute="top" secondItem="2lG-eE-8MA" secondAttribute="bottom" constant="103" id="dec-Fs-fKP"/>
                             <constraint firstItem="y7J-tX-c57" firstAttribute="leading" secondItem="tNN-ll-WmO" secondAttribute="trailing" constant="32" id="dxa-ew-BHY"/>
-                            <constraint firstItem="ByW-y6-ZGK" firstAttribute="leading" secondItem="8ij-ft-8cy" secondAttribute="leadingMargin" constant="-20" id="e0i-OG-Rpi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="y7J-tX-c57" secondAttribute="trailing" constant="180" id="gqU-QN-jeX"/>
                             <constraint firstItem="ZfS-gk-nFQ" firstAttribute="top" secondItem="tNN-ll-WmO" secondAttribute="bottom" constant="49" id="hqO-fT-Ltp"/>
                             <constraint firstItem="tNN-ll-WmO" firstAttribute="leading" secondItem="83D-fE-J3R" secondAttribute="trailing" constant="36" id="qt3-OY-92Z"/>
@@ -1213,9 +1201,6 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
-                    <connections>
-                        <outlet property="optionsView" destination="ByW-y6-ZGK" id="1fK-uk-d6H"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ERY-mt-cUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
