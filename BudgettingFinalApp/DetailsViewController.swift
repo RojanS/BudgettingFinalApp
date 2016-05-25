@@ -79,10 +79,10 @@ class DetailsViewController: UIViewController {
     }
     
     @IBAction func housingAdd(sender: UIButton) {
-        var housingInt: Int? = Int(housingTextField.text!)
-        var housingAm: Int? = Int(housingAmount.text!)
+        let housingInt: Double? = Double(housingTextField.text!)
+        let housingAm: Double? = Double(housingAmount.text!)
         
-        
+        housingTextField.text! = "\(housingInt! - housingAm!)"
         
         
     }

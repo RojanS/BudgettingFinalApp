@@ -331,11 +331,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount spent" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Co-iY-TDV">
-                                <rect key="frame" x="406" y="81" width="82" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount spent" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zdf-JV-rMT">
                                 <rect key="frame" x="406" y="128" width="82" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
@@ -475,6 +470,11 @@
                                     <action selector="miscAdd:" destination="9yT-jA-mE5" eventType="touchUpInside" id="VdH-Mh-dId"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount spent" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Co-iY-TDV">
+                                <rect key="frame" x="406" y="81" width="82" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -535,13 +535,11 @@
                         <outlet property="foodAmount" destination="EPr-p7-AhC" id="22I-fJ-XhW"/>
                         <outlet property="foodButton" destination="S3P-O1-qnP" id="Lju-Nj-Zhm"/>
                         <outlet property="foodTextField" destination="6Iv-go-wfG" id="RvI-CA-ZaS"/>
-                        <outlet property="healthcareAdd" destination="us5-2p-SZT" id="XR9-3I-lwA"/>
                         <outlet property="healthcareAmount" destination="A6g-ZO-A38" id="PYH-0A-IdA"/>
                         <outlet property="healthcareButton" destination="us5-2p-SZT" id="clN-om-0cV"/>
                         <outlet property="housingAmount" destination="0Co-iY-TDV" id="GmJ-iO-M63"/>
                         <outlet property="housingButton" destination="sEU-G6-hls" id="c2c-Lt-Hk9"/>
                         <outlet property="housingTextField" destination="lQu-gY-Mj2" id="nF7-Zj-Wt2"/>
-                        <outlet property="insuranceAdd" destination="Zn9-OH-djR" id="K1V-eE-K2S"/>
                         <outlet property="insuranceAmount" destination="MFi-eo-fYJ" id="K4p-QA-Ygc"/>
                         <outlet property="insuranceButton" destination="Zn9-OH-djR" id="D6C-bV-bz2"/>
                         <outlet property="insuranceTextField" destination="IWJ-kw-tfL" id="8cP-S0-n7n"/>
