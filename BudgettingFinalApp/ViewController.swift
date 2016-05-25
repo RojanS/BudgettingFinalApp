@@ -35,10 +35,10 @@ class ViewController: UIViewController {
         backgroundView.backgroundColor = UIColor.cyanColor()
     }
     @IBAction func changeBackgroundColor2(sender: UIButton) {
-        backgroundView.backgroundColor = UIColor.magentaColor()
+        backgroundView.backgroundColor = UIColor.darkGrayColor()
     }
     @IBAction func changeBackgroundColor3(sender: UIButton) {
-        backgroundView.backgroundColor = UIColor.orangeColor()
+        backgroundView.backgroundColor = UIColor.whiteColor()
     }
 
     
