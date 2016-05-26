@@ -83,40 +83,102 @@ class DetailsViewController: UIViewController {
     @IBAction func housingAdd(sender: UIButton) {
         let housingInt: Double? = Double(housingTextField.text!)
         let housingAm: Double? = Double(housingAmount.text!)
-        
-        housingTextField.text! = "\(housingInt! - housingAm!)"
-        
+        if housingAm != nil
+        {
+            housingTextField.text = "\((housingInt)! - (housingAm)!)"
+        }
         
     }
     
     @IBAction func transportationAdd(sender: UIButton) {
+        let transInt: Double? = Double(transportationTextField.text!)
+        let transAm: Double? = Double(transportationAmount.text!)
+        if transAm != nil
+        {
+            transportationTextField.text = "\((transInt)! - (transAm)!)"
+        }
     }
    
     @IBAction func insuranceAdd(sender: UIButton) {
+        let insuranceInt: Double? = Double(insuranceTextField.text!)
+        let insuranceAm: Double? = Double(insuranceAmount.text!)
+        if insuranceAm != nil
+        {
+            insuranceTextField.text = "\((insuranceInt)! - (insuranceAm)!)"
+        }
     }
     
     @IBAction func savingsAdd(sender: UIButton) {
+        let savingsInt: Double? = Double(savingsTextField.text!)
+        let savingsAm: Double? = Double(savingsAmount.text!)
+        if savingsAm != nil
+        {
+            savingsTextField.text = "\((savingsInt)! - (savingsAm)!)"
+        }
     }
     
     @IBAction func charietyAdd(sender: UIButton) {
+        let charietyInt: Double? = Double(savingsTextField.text!)
+        let charietyAm: Double? = Double(savingsAmount.text!)
+        if charietyAm != nil
+        {
+           charietyTextField.text = "\((charietyInt)! - (charietyAm)!)"
+        }
+        
     }
     
     @IBAction func clothingAdd(sender: UIButton) {
+        let clothingInt: Double? = Double(clothingTextField.text!)
+        let clothingAm: Double? = Double(clothingAmount.text!)
+        if clothingAm != nil
+        {
+            clothingTextField.text = "\((clothingInt)! - (clothingAm)!)"
+        }
     }
     
     @IBAction func utilitiesAdd(sender: UIButton) {
+        let utilitiesInt: Double? = Double(utilitiesTextField.text!)
+        let utilitiesAm: Double? = Double(utilitiesAmount.text!)
+        if utilitiesAm != nil
+        {
+            utilitiesTextField.text = "\((utilitiesInt)! - (utilitiesAm)!)"
+        }
     }
     
     @IBAction func foodAdd(sender: UIButton) {
+        let foodInt: Double? = Double(foodTextField.text!)
+        let foodAm: Double? = Double(foodAmount.text!)
+        if foodAm != nil
+        {
+            foodTextField.text = "\((foodInt)! - (foodAm)!)"
+        }
     }
     
     @IBAction func healthcareAdd(sender: UIButton) {
+        let healthcareInt: Double? = Double(HealthCareTextField.text!)
+        let healthcareAm: Double? = Double(healthcareAmount.text!)
+        if healthcareAm != nil
+        {
+            HealthCareTextField.text = "\((healthcareInt)! - (healthcareAm)!)"
+        }
     }
     
     @IBAction func entertainmentAdd(sender: UIButton) {
+        let enterInt: Double? = Double(entertainmentTextField.text!)
+        let enterAm: Double? = Double(entertainmentAmount.text!)
+        if enterAm != nil
+        {
+           entertainmentTextField.text = "\((enterInt)! - (enterAm)!)"
+        }
     }
     
     @IBAction func miscAdd(sender: UIButton) {
+        let miscInt: Double? = Double(miscTextField.text!)
+        let miscAm: Double? = Double(miscAmount.text!)
+        if miscAm != nil
+        {
+            miscTextField.text = "\((miscInt)! - (miscAm)!)"
+        }
     }
     @IBAction func resetButtonAction(sender: UIButton) {
         housingTextField.text = newUser.Housing
