@@ -229,6 +229,18 @@ class DetailsViewController: UIViewController {
         clothingAmount.text = ""
         miscAmount.text = ""
         savingsAmount.text = ""
+        housingTextField.textColor = UIColor.blackColor()
+        transportationTextField.textColor = UIColor.blackColor()
+        utilitiesTextField.textColor = UIColor.blackColor()
+        foodTextField.textColor = UIColor.blackColor()
+        insuranceTextField.textColor = UIColor.blackColor()
+        HealthCareTextField.textColor = UIColor.blackColor()
+        entertainmentTextField.textColor = UIColor.blackColor()
+        charietyTextField.textColor = UIColor.blackColor()
+        clothingTextField.textColor = UIColor.blackColor()
+        miscTextField.textColor = UIColor.blackColor()
+        savingsTextField.textColor = UIColor.blackColor()
+        
         
         
     }
