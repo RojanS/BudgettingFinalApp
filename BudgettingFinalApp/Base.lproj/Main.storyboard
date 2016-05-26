@@ -735,6 +735,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7f-qc-Jaw">
+                                <rect key="frame" x="20" y="605" width="118" height="92"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetButtonAction:" destination="9yT-jA-mE5" eventType="touchUpInside" id="4Ni-Cz-Tob"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -986,6 +994,7 @@
                         <outlet property="miscAmount" destination="7vN-YA-Mk7" id="vY0-HR-h2E"/>
                         <outlet property="miscButton" destination="mnY-JQ-Zg8" id="qrL-4g-L3g"/>
                         <outlet property="miscTextField" destination="bEO-jn-OH9" id="nFk-Ee-Osb"/>
+                        <outlet property="resetButton" destination="U7f-qc-Jaw" id="4dV-6Y-ndZ"/>
                         <outlet property="savingsAmount" destination="tcJ-Po-HPz" id="7qR-g1-iuW"/>
                         <outlet property="savingsButton" destination="atx-Fe-f9U" id="KpH-ch-Xj5"/>
                         <outlet property="savingsTextField" destination="pvs-K4-Vxb" id="73x-3w-CSc"/>
