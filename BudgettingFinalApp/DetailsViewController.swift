@@ -79,31 +79,57 @@ class DetailsViewController: UIViewController {
     }
     
     @IBAction func housingAdd(sender: UIButton) {
-        let housingInt: Double? = Double(housingTextField.text!)
+        var housingInt: Double? = Double(housingTextField.text!)
         let housingAm: Double? = Double(housingAmount.text!)
         if housingAm != nil
         {
             housingTextField.text = "\((housingInt)! - (housingAm)!)"
         }
+         housingInt = Double(housingTextField.text!)
+
+        if housingInt < 0
+        {
+            housingTextField.textColor = UIColor.redColor()
+        }
         
     }
     
     @IBAction func transportationAdd(sender: UIButton) {
-        let transInt: Double? = Double(transportationTextField.text!)
+        var transInt: Double? = Double(transportationTextField.text!)
         let transAm: Double? = Double(transportationAmount.text!)
         if transAm != nil
         {
             transportationTextField.text = "\((transInt)! - (transAm)!)"
         }
+        transInt = Double(transportationTextField.text!)
+        
+        if transInt < 0
+        {
+            transportationTextField.textColor = UIColor.redColor()
+        }
+        
     }
    
     @IBAction func insuranceAdd(sender: UIButton) {
-        let insuranceInt: Double? = Double(insuranceTextField.text!)
+        var insuranceInt: Double? = Double(insuranceTextField.text!)
         let insuranceAm: Double? = Double(insuranceAmount.text!)
         if insuranceAm != nil
         {
             insuranceTextField.text = "\((insuranceInt)! - (insuranceAm)!)"
         }
+        insuranceInt = Double(insuranceTextField.text!)
+        if insuranceInt < 10
+        {
+            insuranceTextField.textColor = UIColor.yellowColor()
+
+        }
+
+        if insuranceInt < 0
+        {
+            insuranceTextField.textColor = UIColor.redColor()
+        }
+        
+
     }
     
     @IBAction func savingsAdd(sender: UIButton) {

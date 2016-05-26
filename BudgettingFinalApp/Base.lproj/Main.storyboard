@@ -9,7 +9,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BudgettingFinalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -169,13 +168,13 @@
                         <outlet property="startButton" destination="VHn-1c-bWy" id="Vdr-pi-Kgu"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1063" y="221"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="Zmp-h6-0Kv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Iz-dq-pVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="9yT-jA-mE5" customClass="DetailsViewController" customModule="BudgettingFinalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qmP-3A-LoK"/>
@@ -997,6 +996,7 @@
                         <outlet property="utilitiesTextField" destination="kTK-DE-dwt" id="NAR-JB-AS9"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Iz-dq-pVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1048" y="2625"/>
         </scene>
