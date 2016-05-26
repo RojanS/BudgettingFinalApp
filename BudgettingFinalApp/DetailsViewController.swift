@@ -12,6 +12,7 @@ class DetailsViewController: UIViewController {
     
     var newUser = Info()
 
+    @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var miscAmount: UITextField!
     @IBOutlet weak var entertainmentAmount: UITextField!
     @IBOutlet weak var healthcareAmount: UITextField!
@@ -75,6 +76,7 @@ class DetailsViewController: UIViewController {
         insuranceButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         transportationButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         housingButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
+        resetButton.tintColor = UIApplication.sharedApplication().keyWindow?.tintColor
         
     }
     
@@ -115,6 +117,32 @@ class DetailsViewController: UIViewController {
     }
     
     @IBAction func miscAdd(sender: UIButton) {
+    }
+    @IBAction func resetButtonAction(sender: UIButton) {
+        housingTextField.text = newUser.Housing
+        transportationTextField.text = newUser.Transportation
+        utilitiesTextField.text = newUser.Utilities
+        foodTextField.text = newUser.Food
+        insuranceTextField.text = newUser.Insurance
+        HealthCareTextField.text = newUser.Healthcare
+        entertainmentTextField.text = newUser.Entertainment
+        charietyTextField.text = newUser.Chariety
+        clothingTextField.text = newUser.Clothing
+        miscTextField.text = newUser.Misc
+        savingsTextField.text = newUser.Savings
+        housingAmount.text = ""
+        transportationAmount.text = ""
+        utilitiesAmount.text = ""
+        foodAmount.text = ""
+        insuranceAmount.text = ""
+        healthcareAmount.text = ""
+        entertainmentAmount.text = ""
+        charietyAmount.text = ""
+        clothingAmount.text = ""
+        miscAmount.text = ""
+        savingsAmount.text = ""
+        
+        
     }
 }
 
